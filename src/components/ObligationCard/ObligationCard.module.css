@@ -1,0 +1,41 @@
+.obligationCardContainer {
+    margin-top: 30px;
+}
+
+.periods {
+    display: flex;
+    list-style: none;
+}
+
+.indicatorSelectContainer {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.indicatorSelect {
+    width: 200px;
+}
+
+.periods > li:not(:first-of-type) {
+    margin-left: 10px;
+}
+
+.periods > li > label > input[type='radio'] {
+    display: none;
+}
+
+.periods > li > label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.periods > li > label {
+    display: flex;
+    align-items: center;
+}
+
+.checkde {
+    font-weight: bold;
+}
